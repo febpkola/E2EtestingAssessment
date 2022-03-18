@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/tapiwa.too/Downloads/CURBI Automation 270122/AutomationAssesment/src/test/java/testcases/Assessment.java">
+        <classes>
+            <class name="testcases.Assessment">
+                <methods>
+                    <include name="registerSuccessful"/>
+                    <include name="registerUsingDuplicateEmail"/>
+                    <include name="loginSuccessful"/>
+                    <include name="loginUsingIncorrectPassword"/>
+                    <include name="loginUsingIncorrectEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
